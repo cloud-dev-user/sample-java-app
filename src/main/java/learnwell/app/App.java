@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello Devops, Docker, jenkins, this is for new change , horrey , CI is working!" );
+        System.println( "Hello Devops, Docker, jenkins, this is for new change , horrey , CI is working!" );
     }
 }
