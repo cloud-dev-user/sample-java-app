@@ -17,6 +17,10 @@ pipeline {
         sh 'java -cp target/devops-1.0-SNAPSHOT.jar learnwell.app.App '
       }
     }
-
+    stage('sanity test ') {
+      steps {
+        sh 'echo "this is good website" '
+      }
+    }
   }
 }
